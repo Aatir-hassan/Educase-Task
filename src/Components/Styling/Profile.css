@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+
+
+/* Profile container */
+.profile-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Card */
+.profile-card {
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 6px;
+
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+ height: 90vh;
+}
+
+/* Title */
+.profile-card h2 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #4c4c4c;
+  border-bottom: 1px solid #e8e4e4;
+  padding:30px  12px;
+}
+
+/* Profile info */
+.profile-info {
+  display: flex;
+  align-items: center;
+  
+  padding: 20px;
+ 
+ 
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.profile-details h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.profile-details .email {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Description */
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #444;
+  padding: 5px 22px ;
+  border-bottom: 1px dashed #ddd;
+  padding-bottom: 15px;
+}

@@ -1,0 +1,87 @@
+body {
+  margin: 40px;
+   background: #fafafb;
+  font-family: Arial, sans-serif;
+  
+
+  
+}
+
+.landing-screen {
+  width: 100%;
+  max-width: 375px;
+  height: 90vh;
+   
+background-color: #f6f7f9;
+  border: 1px solid rgb(228, 222, 222);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 15px;
+  margin: 0 auto;
+
+}
+
+
+h1, p {
+  margin: 0;  
+}
+
+.welcome-text h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+margin-bottom: 10px;
+
+
+
+}
+
+.welcome-text p {
+  font-size: 16px;
+  color: #6b7280;
+margin-bottom: 18px;
+
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+
+}
+
+.btn-primary {
+  padding: 12px ;
+  background-color: #6d28d9;
+  color: #fff;
+  font-weight: 530;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+text-align: center;
+text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #5b21b6;
+}
+
+.btn-secondary {
+  padding: 12px;
+  background-color: #eab8fe;
+
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+ text-decoration: none;
+}
+.btn-secondary:hover {
+  background-color: #f7c5f4;
+}
+
+

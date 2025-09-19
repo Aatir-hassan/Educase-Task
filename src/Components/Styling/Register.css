@@ -1,0 +1,136 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.regBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fafafb;
+
+}
+
+.Register-container {
+ background: #f7f7f7;
+
+  padding: 40px 20px;
+  border: 1px solid #d8d1d1;
+ 
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+margin: 50px;
+}
+
+.Register-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+/* Floating Label Groups */
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #e2dede;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  background: transparent;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.form-group label {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+   background: #f7f8fa;
+  padding: 0 5px;
+  color: #c1bbbb;
+  font-size: 13px;
+  pointer-events: none;
+  transition: 0.2s ease all;
+ 
+}
+
+/* On focus OR when user types */
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label {
+  top: -4px;
+  font-size: 0.75rem;
+  color: #7b3fe4;
+}
+
+.form-group input:focus {
+  border-color: #7b3fe4;
+  box-shadow: 0 0 4px rgba(123,63,228,0.3);
+}
+
+/* Radio Section */
+.radio-group {
+  margin-bottom: 1.5rem;
+}
+
+.radio-group label {
+  font-weight: 600;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.radio-options {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.radio-options input {
+  margin-right: 0.3rem;
+}
+
+/* Button */
+.btn {
+ display: block;
+  width: 100%;
+  padding: 0.9rem;
+  background: #6b1df1;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+ margin-top: 150px;
+ text-decoration: none;
+ text-align: center;
+}
+
+.btn:hover {
+  background: #642acb;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .Register-container {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .Register-container h2 {
+    font-size: 1.3rem;
+  }
+}
