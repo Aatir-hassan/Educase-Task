@@ -1,6 +1,6 @@
-import "./Styling/LandingScreen.css";
-import { Link } from "react-router-dom";
 
+import { Link } from "react-router-dom";
+import "./Styling/LandingScreen.css";
 export const LandingScreen = () => {
   return (
     <div className="landing-screen">
